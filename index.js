@@ -48,7 +48,7 @@ const arrOther = [-4, -3, -2, -1, 0, 1, 2, 5]; // [-2, 2]
 const arrOther2 = [-4, -3, -2, -1, 0, 5, 10]; // undefined
 const arrOther3 = [-3, -2, -1, 0, 1, 2, 3]; // [-3, 3]
 const arrOther4 = [11, -2, -1, 0, 1, 2, 5]; //  give me an error
-const result = sumZero(arrOther2);
+const result = sumZero(arrOther4);
 if (result !== undefined && result !== null) {
     console.log(colors_1.default.green(`Pair found: ${result[0]}, ${result[1]}`));
 }
